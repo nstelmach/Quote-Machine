@@ -1,0 +1,24 @@
+.button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: rgb(72, 8, 60);
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+  float: right;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.buttons {
+  width: 450px;
+  margin: auto;
+  display: block;
+}
