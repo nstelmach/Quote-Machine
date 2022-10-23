@@ -1,12 +1,9 @@
-div {
+.quoteBox {
   position: relative;
   z-index: 2;
-}
-
-.quoteBox {
   border-radius: 3px;
   position: relative;
-  width: 450px;
+  max-width: 450px;
   padding: 40px 50px;
   display: table;
   background-color: #fff;

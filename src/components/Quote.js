@@ -11,21 +11,25 @@ function Quote(props) {
       <h2 className={classes.quoteAuthor} id={props.authorId}>
         ~{props.author}
       </h2>
-      <Button
-        id="new-quote"
-        title="New Quote"
-        onClick={props.onNewQuoteClick}
-      />
-      <SocialIconLink
-        id="tweet-quote"
-        href="https://twitter.com/intent/tweet"
-        iconClass="fa-brands fa-twitter"
-      />
-      <SocialIconLink
-        id="tumblr-quote"
-        href="https://tumblr.com/share"
-        iconClass="fa-brands fa-tumblr"
-      />
+      <div className={classes.buttonsWrapper}>
+        <div className={classes.socialLinksWrapper}>
+          <SocialIconLink
+            id="tweet-quote"
+            href="https://twitter.com/intent/tweet"
+            iconClass="fa-brands fa-twitter"
+          />
+          <SocialIconLink
+            id="tumblr-quote"
+            href="https://tumblr.com/share"
+            iconClass="fa-brands fa-tumblr"
+          />
+        </div>
+        <Button
+          id="new-quote"
+          title="New Quote"
+          onClick={props.onNewQuoteClick}
+        />
+      </div>
     </div>
   );
 }

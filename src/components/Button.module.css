@@ -1,5 +1,5 @@
 .button {
-  height: 38px;
+  height: 40px;
   border: none;
   border-radius: 3px;
   color: #fff;
@@ -10,15 +10,8 @@
   margin-top: 30px;
   opacity: 1;
   cursor: pointer;
-  float: right;
 }
 
 .button:hover {
   opacity: 0.9;
-}
-
-.buttons {
-  width: 450px;
-  margin: auto;
-  display: block;
 }

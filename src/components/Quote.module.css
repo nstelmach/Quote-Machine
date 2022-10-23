@@ -1,11 +1,6 @@
-div {
-  position: relative;
-  z-index: 2;
-}
-
 .quoteText {
   text-align: center;
-  width: 450px;
+  width: 100%;
   height: auto;
   clear: both;
   font-weight: 500;
@@ -13,10 +8,18 @@ div {
 }
 
 .quoteAuthor {
-  width: 450px;
+  width: 100%;
   height: auto;
-  clear: both;
   padding-top: 20px;
   font-size: 1em;
   text-align: right;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialLinksWrapper {
+  display: flex;
 }
